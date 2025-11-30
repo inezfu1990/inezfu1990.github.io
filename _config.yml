@@ -34,6 +34,7 @@ navbar:
 markdown: kramdown
 theme: null
 plugins:
+  - jekyll-include-cache
   - jekyll-feed
   - jekyll-seo-tag
 

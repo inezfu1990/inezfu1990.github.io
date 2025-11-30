@@ -1,0 +1,51 @@
+title: "Inez Insights"
+name: "Inez Fu"
+description: "Biotech & Pharma Investment Advisory Insights"
+url: "https://inezfu1990.github.io"
+baseurl: ""
+
+# 使用 Minimal Mistakes 主题
+remote_theme: "mmistakes/minimal-mistakes"
+
+# 作者信息
+author:
+  name: "Inez Fu"
+  bio: "Biotech & pharma investment analysis integrating scientific understanding with financial insight."
+  location: "Sweden"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/inezfu1990"
+      icon: "fab fa-github"
+
+# 导航菜单
+navbar:
+  - title: "Home"
+    url: /
+  - title: "Market Insights"
+    url: /market-insights/
+  - title: "Strategy"
+    url: /strategy/
+  - title: "Company Analysis"
+    url: /company-analysis/
+  - title: "About"
+    url: /about/
+
+# 启用 Jekyll 功能
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 帖子默认设置
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: true
